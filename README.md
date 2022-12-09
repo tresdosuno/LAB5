@@ -111,6 +111,8 @@ Después de crear esta clase se empiezan a hacer cambios en el pom. Para empezar
 ![](fotos/dependency-javax.png)
 
 Añadimos también, debido a que se va a hacer análisis estático del código, una propiedad para hacer uso de "SonarCloud":
+&nbsp;
+
 ![](fotos/propiedad-sonarcloud.png)
 
 Y finalmente, para terminar la configuración inicial del pom, insertamos los plugins necesarios para que funcione tomcat, war y el compilador de maven correctamente:

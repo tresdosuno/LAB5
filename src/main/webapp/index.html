@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start page</title>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    </head>
+    <script>
+        function validateForm() {
+            let number = document.forms["form"]["id"].value;
+            if (isNaN(number)) {
+                alert("El dato ingresado no es un número.");
+            }
+        }
+    </script>
+    <body>
+        <h1>Hello World!</h1>
+        <form name="form" action="/Other" method="get">
+            <input type="text" name="id">
+            <button type="submit" onclick="validateForm()">Consultar valor</button>
+        </form>
+    </body>
+</html>

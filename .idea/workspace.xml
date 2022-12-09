@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3edb9d02-4b65-47b9-97ca-f288f4830355" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/OtherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/OtherServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/LAB5.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/LAB5.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2022-12-09" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2022-12-09" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

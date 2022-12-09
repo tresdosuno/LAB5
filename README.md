@@ -163,3 +163,19 @@ Y así, podemos hacer el testing de la implementación de este método, tanto co
 
 
 ## Parte 3 - DoPost y formulario
+
+Debemos ahora crear un nuevo método en la clase "OtherServlet" llamado "doPost" que es, en esencia, lo mismo que el método "doGet" creado al final del paso pasado:
+![](fotos/metodo-dopost.png)
+
+Y ahora creamos el archivo "index.html" en el directorio "webapp":
+![](fotos/index.png)
+
+Ahora debemos crear, en esta misma página, un formulario y un botón que sirva para validar que el valor ingresado en el formulario sea un valor numérico:
+![](fotos/index2.png)
+
+Y podemos testear ahora el funcionamiento del formulario:
+&nbsp;
+
+![](fotos/test-index.png)
+![](fotos/test-index2.png)
+

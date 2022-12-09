@@ -1,0 +1,165 @@
+
+DServlet.Service#todosToHTMLTable(Ljava/util/List;)Ljava/lang/String;l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java) )()"5*≠
+2l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java2 2(∑
+¥
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java2 2(
+todoServlet.model.Todo"__id*"
+
+__unknown_file (
+""˜
+Ù
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java2 2(
+todoServlet.model.Todo"
+__arrayGet*8
+
+__unknown_file (
+
+todoListjava.util.List*"
+
+__unknown_file (
+""*
+3
+1*Æ
+3l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java3 3(ª
+∏
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java3! 3(4
+%8java.lang.String"EServlet.Service#todoToHTMLRow(LServlet/model/Todo;)Ljava/lang/String;*/
+
+__unknown_file ("
+Servlet.Service*8
+
+__unknown_file (
+
+todoServlet.model.Todo˜Ù
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java3 3(5
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*F
+
+__unknown_file (*
+(
+stringBuilderjava.lang.StringBuilder*4
+
+__unknown_file (
+
+%8java.lang.String2append(Ljava/lang/String;)*
+2*˛
+5l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*8 *(A©¶
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java** *(7
+%0java.lang.StringBuilder"java.lang.StringBuilderí
+è
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& *(B
+%1"3java.lang.StringBuilder#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilder*'
+
+__unknown_file (	
+<table>‹Ÿ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& +(
+%2java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%0java.lang.StringBuilder*$
+
+__unknown_file (
+<tr>2append(Ljava/lang/String;)ËÂ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& ,(+
+%3java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%2java.lang.StringBuilder*0
+
+__unknown_file (
+<th>User Id</th>2append(Ljava/lang/String;)„‡
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& -(&
+%4java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%3java.lang.StringBuilder*+
+
+__unknown_file (
+<th>Id</th>2append(Ljava/lang/String;)Ê„
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& .()
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%4java.lang.StringBuilder*.
+
+__unknown_file (
+<th>Title</th>2append(Ljava/lang/String;)ÍÁ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& /(-
+%6java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%5java.lang.StringBuilder*2
+
+__unknown_file (
+<th>Completed</th>2append(Ljava/lang/String;)›⁄
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java*& 0( 
+%7java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%6java.lang.StringBuilder*%
+
+__unknown_file (	
+</tr>2append(Ljava/lang/String;)ﬁ
+€
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java* 0(!(
+stringBuilderjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%7java.lang.StringBuilder*
+2*˘
+1l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java6 6(ÏÈ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java6 6(/
+%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*F
+
+__unknown_file (*
+(
+stringBuilderjava.lang.StringBuilder*(
+
+__unknown_file (
+
+</table>2append(Ljava/lang/String;)äá
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java6 6(:
+%11java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%10java.lang.StringBuilder2
+toString()"â
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java6 6(;
+
+%11java.lang.String:ä
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java)* )(=
+todoListjava.util.ListB"
+Servlet.ServiceH

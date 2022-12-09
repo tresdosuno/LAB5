@@ -1,0 +1,154 @@
+
+.Servlet.Service#getTodo(I)LServlet/model/Todo;l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java ("1*»$
+1l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (K≠
+™
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (P
+%0java.lang.String"__concat*ü
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (K/-
++https://jsonplaceholder.typicode.com/todos/*v
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.javaN (P
+""ìê
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (
+%1java.net.URL"java.net.URLâ
+Ü
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (Q
+%2"(java.net.URL#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%1java.net.URL*4
+
+__unknown_file (
+
+%0java.lang.String¬
+ø
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (R
+urldemojava.net.URL"__id*0
+
+__unknown_file (
+
+%1java.net.URLèå
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (3
+%3java.net.URLConnection"5java.net.URL#openConnection()Ljava/net/URLConnection;*5
+
+__unknown_file (
+
+urldemojava.net.URL2openConnection()—
+Œ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (4
+ycjava.net.URLConnection"__id*:
+
+__unknown_file (
+
+%3java.net.URLConnectionòï
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.javaE (X
+%4java.io.InputStream"<java.net.URLConnection#getInputStream()Ljava/io/InputStream;*:
+
+__unknown_file (
+
+ycjava.net.URLConnection2getInputStream()≠™
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java3 (D
+%5java.io.InputStreamReader"java.io.InputStreamReader©
+¶
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java/ (Y
+%6"8java.io.InputStreamReader#<init>(Ljava/io/InputStream;)V*=
+
+__unknown_file (!
+
+%5java.io.InputStreamReader*7
+
+__unknown_file (
+
+%4java.io.InputStreamß§
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java  (.
+%7java.io.BufferedReader"java.io.BufferedReader§
+°
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (Z
+%8"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*:
+
+__unknown_file (
+
+%7java.io.BufferedReader*=
+
+__unknown_file (!
+
+%5java.io.InputStreamReader—
+Œ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java ([
+injava.io.BufferedReader"__id*:
+
+__unknown_file (
+
+%7java.io.BufferedReader£†
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (
+%9com.google.gson.Gson"com.google.gson.Gson“
+œ
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (
+%10"com.google.gson.Gson#<init>()V*8
+
+__unknown_file (
+
+%9com.google.gson.Gsonœ
+Ã
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (
+gsoncom.google.gson.Gson"__id*8
+
+__unknown_file (
+
+%9com.google.gson.Gson©¶
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (1
+%11Servlet.model.Todo"Rcom.google.gson.Gson#fromJson(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;*:
+
+__unknown_file (
+
+gsoncom.google.gson.Gson*:
+
+__unknown_file (
+
+injava.io.BufferedReader*"
+
+__unknown_file (
+""2+fromJson(Ljava/io/Reader;Ljava/lang/Class;)Ã
+…
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (2
+todoServlet.model.Todo"__id*7
+
+__unknown_file (
+
+%11Servlet.model.Todo‰·
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (
+%12void"java.io.BufferedReader#close()V*:
+
+__unknown_file (
+
+injava.io.BufferedReader2close()"å
+l
+bC:/Users/user/Dropbox/Trabajos/S√©ptimo semestre/CVDS/LABS/LAB5/src/main/java/Servlet/Service.java (
+
+todoServlet.model.Todo: 
+
+__unknown_file (
+""B"
+Servlet.ServiceH

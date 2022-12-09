@@ -122,3 +122,37 @@ Y finalmente, para terminar la configuración inicial del pom, insertamos los pl
 
 Empaquetamos para verificar que todo está funcionando:
 ![](fotos/first-compile.png)
+
+Hacemos commit.
+&nbsp;
+
+![](fotos/segundo-commit.png)
+
+Y ahora completamos la última tarea de la primera historia creada en el *backlog*, la cual es el *testing* con tomcat del "SampleServlet", la cual se logra con el comando ```mvn tomcat7:run```:
+&nbsp;
+
+![](fotos/primer-test.png)
+
+Ahora podemos probar el hecho de que el "SampleServlet" recibe un valor de parámetro llamado "name". Testeamos esto con la siguiente búsqueda en el navegador:
+![](fotos/get-parameter.png) Y obtenemos el siguiente resultado: 
+![](fotos/test-parametro-juan.png)
+
+Como paso siguiente añadimos el artefacto gson del repositorio de maven:
+![](fotos/gson-dependency.png)
+
+Luego podemos testear lo que hace cambiar una variable del path en el URL:
+![](fotos/test-url.png)
+
+
+Después de esto, debemos basarnos en este ejemplo para lograr lo que queremos en nuestro proyecto. Para poder hacer esto debemos analizar bien cómo funciona la clase que nos dan ("Service") para poder 
+crear la clase "Todo" y así completar los métodos *getter* y *setter* de esta clase para que todo en "Service" funcione:
+![](fotos/class-todo1.png)
+![](fotos/class-todo2.png)
+
+Ahora hay que hacer una nueva clase basada en el "SampleServlet" que se nos dio previamente. En esta clase tenemos que crear el método "doGet" (así como en "SampleServlet"):
+&nbsp;
+
+![](fotos/class-otherservlet1.png)
+
+Ya una vez hecho esto, podemos empezar a implementar el método "doGet":
+![](fotos/metodo_doget_implementado.png)

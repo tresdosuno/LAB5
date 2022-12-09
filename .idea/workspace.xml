@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3edb9d02-4b65-47b9-97ca-f288f4830355" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/activar-telnet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/cliente-telnet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/comando-telnet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/conexion-telnet-escuela.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/count-linux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/creacion-proyecto-azure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/creacion-proyecto-maven.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/curl-httpbin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/curli-httpbin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/curlv-httpbin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/error-get-escuela.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/get-telnet-httpbin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotos/sprint1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/SampleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/SampleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +47,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

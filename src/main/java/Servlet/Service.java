@@ -23,7 +23,7 @@ public class Service {
         return todo;
     }
 
-    private static String todoToHTMLRow(Todo todo) {
+    public static String todoToHTMLRow(Todo todo) {
         return new StringBuilder("<tr>")
                 .append("<td>")
                 .append(todo.getUserId())

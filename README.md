@@ -156,3 +156,10 @@ Ahora hay que hacer una nueva clase basada en el "SampleServlet" que se nos dio 
 
 Ya una vez hecho esto, podemos empezar a implementar el método "doGet":
 ![](fotos/metodo_doget_implementado.png)
+
+Y así, podemos hacer el testing de la implementación de este método, tanto con un parámetro como no:
+![](fotos/test-other1.png)
+![](fotos/test-other2.png)
+
+
+## Parte 3 - DoPost y formulario

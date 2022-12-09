@@ -23,3 +23,13 @@
 0:0:0:0:0:0:0:1 - - [09/Dec/2022:05:17:48 -0500] "GET /Other?id=1 HTTP/1.1" 200 164 http-bio-8080-exec-3 324
 0:0:0:0:0:0:0:1 - - [09/Dec/2022:05:18:04 -0500] "GET /index.html HTTP/1.1" 304 - http-bio-8080-exec-4 3
 0:0:0:0:0:0:0:1 - - [09/Dec/2022:05:20:27 -0500] "GET /Other?id=1 HTTP/1.1" 200 164 http-bio-8080-exec-6 125
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/guess.xhtml HTTP/1.1" 200 3733 http-bio-8080-exec-1 184
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/jquery/jquery.js;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces&v=12.0.0 HTTP/1.1" 200 89756 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/core.js;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces&v=12.0.0 HTTP/1.1" 200 89155 http-bio-8080-exec-6 5
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/components.js;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces&v=12.0.0 HTTP/1.1" 200 492154 http-bio-8080-exec-7 9
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/primeicons/primeicons.css;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces&v=12.0.0 HTTP/1.1" 200 11145 http-bio-8080-exec-2 16
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces&v=12.0.0 HTTP/1.1" 200 146589 http-bio-8080-exec-9 5
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/components.css;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces&v=12.0.0 HTTP/1.1" 200 107992 http-bio-8080-exec-4 41
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:17 -0500] "GET /faces/javax.faces.resource/theme.css;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372?ln=primefaces-saga&v=12.0.0 HTTP/1.1" 200 199176 http-bio-8080-exec-3 48
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:22 -0500] "GET /faces/javax.faces.resource/primeicons/primeicons.woff2?ln=primefaces&v=12.0.0 HTTP/1.1" 200 30217 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:06:10:22 -0500] "POST /faces/guess.xhtml;jsessionid=974594A228BCFE6E4F2F3CD78D9C9372 HTTP/1.1" 200 2254 http-bio-8080-exec-3 15

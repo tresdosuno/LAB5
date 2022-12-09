@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Adivina adivinador</title>
+</h:head>
+<h:body>
+    <h:form id="guess_form">
+        <p:outputLabel style="display: none;" value="#{guessBean.randomNumber}"/>
+        <br/>
+        <p:inputText id="currentAttempt"  placeholder="Ingrese un número" value="#{guessBean.attemptNumber}"/>
+        <p:outputLabel value="Intentos: #{guessBean.attempts}"/>
+        <br/>
+        <p:outputLabel value= "Estado del juego: #{guessBean.gameState}"/>
+        <br/>
+        <p:outputLabel value="Premio acumulado #{guessBean.prize}"/>
+        <br/>
+        <p:commandButton update="guess_form" actionListener="#{guessBean.guess}" value="Adivina"/>
+        <p:commandButton update="guess_form" actionListener="#{guessBean.restart}" value="Reiniciar"
+                         styleClass="ui-priority-primary"/>
+    </h:form>
+</h:body>
+</html>

@@ -181,3 +181,33 @@ Y podemos testear ahora el funcionamiento del formulario:
 ![](fotos/test-index.png)
 ![](fotos/test-index2.png)
 
+## Parte 4 - Frameworks Web MVC - Java Server Faces/Prime Faces
+
+Lo primero que se debe hacer es añadir un par de dependencias al pom para poder trabajar con el *framework* en cuestión:
+![](fotos/dependency-primefaces.png)
+
+Ahora, para configurar que el framework "JSF" se active tan pronto se inicie la aplicación, hay que ir al archivo "web.xml" y establecer las siguientes configuraciones:
+![](fotos/web-config.png)
+
+Después de esto se debe crear un "Backing-Bean" para cada usuario, y este debe cumplir las siguientes propiedades de lado del servidor:
+* El número que se debe adivinar, siendo este un número aleatorio.
+* El número de intentos realizados.
+* El premio acumulado.
+* El estado del juego (si ganó o no, y de cuánto es el premio).
+
+![](fotos/backingbean1.png)
+![](fotos/backingbean2.png)
+![](fotos/backingbean3.png)
+
+Una vez el "Backing-Bean" es creado, se debe crear una página de xhtml llamada "guess.xhtml", la cual debe tener la siguiente estructura:
+
+![](fotos/guess.png)
+
+Luego de esto, poblamos el formulario con los elementos que muestran los datos importantes para el juego:
+![](fotos/guess2.png)
+
+Y por último añadimos dos botones para reinicar el juego o para realizar un intento de adivinar:
+![](fotos/guess3.png)
+
+Ahora empaquetamos y ejecutamos tomcat para testear si está funcionando apropiadamente:
+![](fotos/test-game.png)

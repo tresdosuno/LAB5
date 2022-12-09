@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3edb9d02-4b65-47b9-97ca-f288f4830355" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/OtherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/OtherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/SampleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/SampleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/model/BackingBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/model/BackingBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/model/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ServletsJUnitTest.givenTodoShouldBuildHTMLTableService">
+  <component name="RunManager" selected="JUnit.ServletsJUnitTest">
+    <configuration name="ServletsJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServletsJUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServletsJUnitTest.givenNumberShouldWinGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LAB5" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServletsJUnitTest" />
         <item itemvalue="JUnit.ServletsJUnitTest.givenTodoShouldBuildHTMLTableService" />
         <item itemvalue="JUnit.ServletsJUnitTest.givenTodoShouldBuildHTMLService" />
         <item itemvalue="JUnit.ServletsJUnitTest.givenRestartShould" />
@@ -138,8 +142,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LAB5$ServletsJUnitTest_givenTodoShouldBuildHTMLService.ic" NAME="ServletsJUnitTest.givenTodoShouldBuildHTMLService Coverage Results" MODIFIED="1670588743405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LAB5$ServletsJUnitTest.ic" NAME="ServletsJUnitTest Coverage Results" MODIFIED="1670589968587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/LAB5$BackingBeanJUnitTest_givenNumberShouldWinGame.ic" NAME="BackingBeanJUnitTest.givenNumberShouldWinGame Coverage Results" MODIFIED="1670587571687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/LAB5$BackingBeanJUnitTest_givenRestartShould.ic" NAME="BackingBeanJUnitTest.givenRestartShould Coverage Results" MODIFIED="1670588079577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/LAB5$ServletsJUnitTest_givenTodoShouldBuildHTMLTableService.ic" NAME="ServletsJUnitTest.givenTodoShouldBuildHTMLTableService Coverage Results" MODIFIED="1670589478666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LAB5$ServletsJUnitTest_givenTodoShouldBuildHTMLTableService.ic" NAME="ServletsJUnitTest.givenTodoShouldBuildHTMLTableService Coverage Results" MODIFIED="1670589858089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

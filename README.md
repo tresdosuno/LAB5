@@ -90,6 +90,8 @@ Sin embargo, cuando utilizamos los parámetros "-v" o "-i" obtenemos los siguien
 ## Parte 2 - Haciendo una aplicación web dinámica a bajo nivel
 
 Como este proyecto se realizará con prácticas CI/CD, se hace el desarrollo con Azure, por lo tanto, el primer paso en este proceso es crear un proyecto en Azure DevOps con la configuración *agile*:
+&nbsp;
+
 ![](fotos/creacion-proyecto-azure.png)
 &nbsp;
 
@@ -160,6 +162,8 @@ Ya una vez hecho esto, podemos empezar a implementar el método "doGet":
 ![](fotos/metodo_doget_implementado.png)
 
 Y así, podemos hacer el testing de la implementación de este método, tanto con un parámetro como no:
+&nbsp;
+
 ![](fotos/test-other1.png)
 ![](fotos/test-other2.png)
 
@@ -184,6 +188,8 @@ Y podemos testear ahora el funcionamiento del formulario:
 ## Parte 4 - Frameworks Web MVC - Java Server Faces/Prime Faces
 
 Lo primero que se debe hacer es añadir un par de dependencias al pom para poder trabajar con el *framework* en cuestión:
+&nbsp;
+
 ![](fotos/dependency-primefaces.png)
 
 Ahora, para configurar que el framework "JSF" se active tan pronto se inicie la aplicación, hay que ir al archivo "web.xml" y establecer las siguientes configuraciones:
@@ -210,4 +216,22 @@ Y por último añadimos dos botones para reinicar el juego o para realizar un in
 ![](fotos/guess3.png)
 
 Ahora empaquetamos y ejecutamos tomcat para testear si está funcionando apropiadamente:
+&nbsp;
+
 ![](fotos/test-game.png)
+
+Como últimos pasos se añaden algunas Unit Tests y se obtiene el siguiente resumen de coverage:
+&nbsp;
+
+![](fotos/coverage1.png)
+![](fotos/coverage2.png)
+
+Y se realiza un análisis estático:
+![](fotos/static-analysis1.png)
+![](fotos/static-analysis2.png)
+
+Finalmente, como resumen, estos son los backlogs que se manejaron:
+* Primer sprint:
+![](fotos/backlog-sprint1.png)
+* Segundo sprint:
+![](fotos/backlog-sprint2.png)
